@@ -1,7 +1,15 @@
 def prime?(x)
-  if (x % 2 == 0) || (x % 3 == 0)
+  if x <= 1
     return false
-  else
-    return true
+
   end
 end
+
+if ($n <= 1)
+        return false;
+
+    loop (i = 2; i < x; i++) do
+        if (x % i == 0)
+            return false;
+  end
+    return true;
