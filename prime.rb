@@ -1,15 +1,6 @@
-def prime?(x)
-  if x <= 1
-    return false
-
+def is_prime(x)
+  (2..(x - 1)).each do |n|
+    return false if x % n == 0
   end
+  true
 end
-
-if ($n <= 1)
-        return false;
-
-    loop (i = 2; i < x; i++) do
-        if (x % i == 0)
-            return false;
-  end
-    return true;
